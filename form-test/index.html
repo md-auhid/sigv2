@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form
+    method="POST"
+    action="https://customerioforms.com/forms/submit_action?site_id=620eefc4e3f287821544&form_id=24f86d7a0b0343f&success_url=https://customerioforms.com/forms/submit_action?site_id=620eefc4e3f287821544&form_id=24f86d7a0b0343f&success_url="
+  >
+
+    <label for="email_input">E-mail address</label>
+  <input id="email_input" name="email" type="email" />
+
+  <label for="name_input">YOur name</label>
+  <input id="name_input" name="email" type="name" />
+
+  <label for="gender">Gender</label>
+  <input type="radio" id="gender" value="male">
+
+    <button>Submit</button>
+    
+  </form>
+
+  <script type="text/javascript">
+    (function() {
+      var t = document.createElement('script'),
+          s = document.getElementsByTagName('script')[0];
+      t.async = true;
+      t.id    = 'cio-forms-handler';
+      t.setAttribute('data-site-id', '620eefc4e3f287821544');
+      t.setAttribute('data-base-url', 'https://customerioforms.com');
+  
+      t.src = 'https://customerioforms.com/assets/forms.js';
+  
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+</body>
+</html>
